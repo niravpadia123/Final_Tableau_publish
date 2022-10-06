@@ -1,0 +1,18 @@
+{
+  "workbooks": [
+    {
+      "name": "Sales_New_Dashboard",
+      "file_path": "Sales_New_Dashboard.twbx",
+      "project_path": "Technology",
+      "tags": [
+        "sample",
+        "temp"
+      ],
+      "hidden_views": [
+        ""
+      ],
+      "show_tabs": true,
+      "description": "Sample description"
+    }
+  ]
+}
