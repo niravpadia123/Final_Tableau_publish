@@ -1,17 +1,17 @@
 {
   "workbooks": [
     {
-      "name": "Sales__D",
-      "file_path": "Sales__D.twbx",
+      "name": "Sales_profit_New",
+      "file_path": "Sales_profit_New",
       "project_path": "Technology",
       "tags": [
-        "Sales",
-        "Profit"
+        "Sales2022",
+        "Profit2022"
       ],
       "hidden_views": [
         ""
       ],
-      "show_tabs": false,
+      "show_tabs": true,
       "description": "Sample description"
     }
   ]
