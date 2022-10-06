@@ -13,7 +13,7 @@ def main(args):
 
         with server.auth.sign_in(tableau_auth):
             for data in project_data_json:
-                if data['file_path'] and data['project_path']:
+                if data['file_path'] or data['project_path']:
                     # Step 2: Get all the projects on server, then look for the default one.
                     all_projects, pagination_item = server.projects.get()
                     project = next(
@@ -22,7 +22,7 @@ def main(args):
                     # Step 3: If default project is found, form a new workbook item and publish.
                     if project is not None:
                         new_workbook = TSC.WorkbookItem(
-                            name=data['name'], project_id=project.id)
+                            name=data['name'], project_id=project.id,show_tabs=data['show_tabs'])
                         new_workbook = server.workbooks.publish(
                             new_workbook, data['file_path'], mode='Overwrite', hidden_views=data['hidden_views'])
                         

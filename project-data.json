@@ -1,8 +1,8 @@
 {
   "workbooks": [
     {
-      "name": "Sales__Dashboard1",
-      "file_path": "Sales__Dashboard1.twbx",
+      "name": "Sales__D",
+      "file_path": "Sales__D.twbx",
       "project_path": "Technology",
       "tags": [
         "Sales",
@@ -11,7 +11,7 @@
       "hidden_views": [
         ""
       ],
-      "show_tabs": true,
+      "show_tabs": false,
       "description": "Sample description"
     }
   ]
