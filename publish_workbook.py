@@ -41,12 +41,12 @@ def main(args):
                         exit(1)
 
                 else:
-                    if data['file_path'] and data['project_path'] == None: 
+                    if data['file_path'] and len(data['project_path']) < 1: 
                         print(f"{data['project_path']} not found")
                         print(f"{data['file_path']} not published")
-                    if data['project_path'] and data['file_path'] == None: 
+                    if data['project_path'] and len(data['file_path']) < 1: 
                         print(f"{data['file_path']} not found")
-                    if data['project_path'] == None and data['file_path'] == None: 
+                    if len(data['project_path']) < 1 and len(data['file_path']) < 1: 
                         print(f"{data['file_path']} and {data['project_path']} not found")
                     exit(1)
 
