@@ -30,7 +30,7 @@ def main(args):
                         show_tabs = data['show_tabs']
                         if tags and show_tabs:
                             new_workbook.tags = set(tags)
-                            new_workbook.show_tabs = set(show_tabs)
+                            new_workbook.show_tabs = show_tabs
                             new_workbook = server.workbooks.update(new_workbook)
                          
                         print(
@@ -62,4 +62,3 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
     main(args)
-    
