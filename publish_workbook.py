@@ -41,6 +41,13 @@ def main(args):
                         exit(1)
 
                 else:
+                    if data['file_path'] and data['project_path'] == None: 
+                        print(f"{data['project_path']} not found")
+                        print(f"{data['file_path']} not published")
+                    if data['project_path'] and data['file_path'] == None: 
+                        print(f"{data['file_path']} not found")
+                    if data['project_path'] == None and data['file_path'] == None: 
+                        print(f"{data['file_path']} and {data['project_path']} not found")
                     exit(1)
 
     except Exception as e:

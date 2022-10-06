@@ -1,8 +1,22 @@
 {
   "workbooks": [
     {
-      "name": "Sales_profit_Dash",
-      "file_path": "Sales_profit_Dash.twbx",
+      "name": "S&P_New",
+      "file_path": "S&P_New.twbx",
+      "project_path": "Technology",
+      "tags": [
+        "SP CY",
+        "profit Trend"
+      ],
+      "hidden_views": [
+        ""
+      ],
+      "show_tabs": true,
+      "description": "Sample description"
+    },
+    {
+      "name": "Sales_New",
+      "file_path": "Sales_New_.twbx",
       "project_path": "Technology",
       "tags": [
         "Sales CY",
