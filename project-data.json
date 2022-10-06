@@ -1,8 +1,8 @@
 {
   "workbooks": [
     {
-      "name": "S&P_11",
-      "file_path": "S&P_11.twbx",
+      "name": "S&P_12",
+      "file_path": "S&P_12.twbx",
       "project_path": "Technology",
       "tags": [
         "SP CY",
@@ -15,8 +15,8 @@
       "description": "Sample description"
     },
     {
-      "name": "Sales_11",
-      "file_path": "Sales_11",
+      "name": "Sales_12",
+      "file_path": "Sales_12",
       "project_path": "",
       "tags": [
         "Sales CY",
