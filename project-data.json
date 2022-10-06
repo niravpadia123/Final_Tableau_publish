@@ -1,8 +1,8 @@
 {
   "workbooks": [
     {
-      "name": "Sales_New_Dashboard",
-      "file_path": "Sales_New_Dashboard.twbx",
+      "name": "SP_New_Dashboard",
+      "file_path": "SP_New_Dashboard.twbx",
       "project_path": "Technology",
       "tags": [
         "sample",
