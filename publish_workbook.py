@@ -33,6 +33,8 @@ def main(args):
                         exit(1)
 
                 else:
+                    error = "Project_path/file_path is Empty."
+                    raise LookupError(error)
                     exit(1)
 
     except Exception as e:
