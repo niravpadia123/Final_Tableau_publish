@@ -1,12 +1,12 @@
 {
   "workbooks": [
     {
-      "name": "Sales__Dashboard",
-      "file_path": "",
+      "name": "Sales__Dashboard1",
+      "file_path": "Sales__Dashboard1.twbx",
       "project_path": "Technology",
       "tags": [
-        "sample",
-        "temp"
+        "Sales",
+        "Profit"
       ],
       "hidden_views": [
         ""
