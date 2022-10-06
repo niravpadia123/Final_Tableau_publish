@@ -13,7 +13,7 @@ def main(args):
 
         with server.auth.sign_in(tableau_auth):
             for data in project_data_json:
-                if data['file_path'] or data['project_path']:
+                if data['file_path'] and data['project_path']:
                     # Step 2: Get all the projects on server, then look for the default one.
                     all_projects, pagination_item = server.projects.get()
                     project = next(
