@@ -1,12 +1,12 @@
 {
   "workbooks": [
     {
-      "name": "Sales_profit_New",
-      "file_path": "Sales_profit.twbx",
+      "name": "Sales_profit_Dash",
+      "file_path": "Sales_profit_Dash.twbx",
       "project_path": "Technology",
       "tags": [
-        "Sales2022",
-        "Profit2022"
+        "Sales CY",
+        "Profit CY"
       ],
       "hidden_views": [
         ""
