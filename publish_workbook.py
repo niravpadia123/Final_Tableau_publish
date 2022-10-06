@@ -27,11 +27,12 @@ def main(args):
                             new_workbook, data['file_path'], mode='Overwrite', hidden_views=data['hidden_views'])
                         
                         tags=data['tags']
-                        print(tags)
-                        if tags is not None:
-                         new_workbook.tags = set(tags)
-                         new_workbook = server.workbooks.update(new_workbook)
-
+                        show_tabs = data['show_tabs']
+                        if tags and show_tabs:
+                            new_workbook.tags = set(tags)
+                            new_workbook.show_tabs = set(show_tabs)
+                            new_workbook = server.workbooks.update(new_workbook)
+                         
                         print(
                             f"\nWorkbook :: {data['file_path']} :: published in {data['project_path']} project")
                     else:
@@ -40,8 +41,6 @@ def main(args):
                         exit(1)
 
                 else:
-                    error = "Project_path/file_path is Empty."
-                    raise LookupError(error)
                     exit(1)
 
     except Exception as e:
