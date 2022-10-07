@@ -1,23 +1,23 @@
 {
   "workbooks": [
     {
-      "name": "S&P_12",
-      "file_path": "S&P_12.twbx",
+      "name": "Price Forecast",
+      "file_path": "Price Forecast.twbx",
       "project_path": "Technology",
       "tags": [
-        "SP CY",
-        "profit Trend"
+        "Forecasting",
+        "Crop"
       ],
       "hidden_views": [
-        ""
+        "State","Price Forecast"
       ],
       "show_tabs": true,
-      "description": "Sample description"
+      "description": "Price Forecast"
     },
     {
-      "name": "Sales_12",
-      "file_path": "Sales_12",
-      "project_path": "",
+      "name": "S&P New",
+      "file_path": "S&P New1.twbx",
+      "project_path": "Technology",
       "tags": [
         "Sales CY",
         "Profit CY"
