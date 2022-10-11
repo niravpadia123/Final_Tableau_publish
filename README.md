@@ -70,7 +70,7 @@
   ]
 }
 
-3) If Any of the Workbook detail in Json file is incorrect then Workflow will not trigger
+3) If Any of the Workbook detail in Json file is incorrect then that workbook will not publish
 
 4) If only want to delete workbook from branch then keep fields of json file empty and along with empty json commit for deleting the workbook
 
