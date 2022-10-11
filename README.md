@@ -1,11 +1,12 @@
 # Things to Consider before Publishing Workbook
 
 1) whenever we publish the twb/twbx file we need to add the below details in project-data json file
--name          = workbookname
--file_path     = workbookname (with .twb/.twbx extension for eg sales.twbx) 
--tags          = if no tags are there than keep it blank ""
--hidden views  = if the anyworksheet we have to hide then mention the Worksheet name in "sheetname" 
--show_tabs     =dashboards or worksheet need to show as tabs then mark as true and for no tabs mark it as false
+
+name          = workbookname
+file_path     = workbookname (with .twb/.twbx extension for eg sales.twbx) 
+tags          = if no tags are there than keep it blank ""
+hidden views  = if the anyworksheet we have to hide then mention the Worksheet name in "sheetname" 
+show_tabs     =dashboards or worksheet need to show as tabs then mark as true and for no tabs mark it as false
 
 2) If publishing single workbook then add those details in json file or if want to publish multiple workbooks then each workbook details needs to be mention in json   just like below
 {
