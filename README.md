@@ -19,8 +19,8 @@
   {
   "workbooks": [
     {
-      "name": "S&P_new_1",
-      "file_path": "S&P_new_1.twbx",
+      "name": "WorkbookName",
+      "file_path": "WorkbookName.twbx",
       "project_path": "Technology",
       "tags": [
         "Forecasting",
@@ -35,7 +35,7 @@
   ]
 }
 
-* Multiple workbook json eg:-
+* Multiple workbook json eg 2 workbook publishing:-
 
   {
   "workbooks": [
