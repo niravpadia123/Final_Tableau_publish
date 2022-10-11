@@ -1,5 +1,3 @@
-# Final_Tableau_publish
-
 # Things to Consider before Publishing Workbook
 
 1) whenever we publish the twb/twbx file we need to add the below details in project-data json file
