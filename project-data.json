@@ -1,8 +1,8 @@
 {
   "workbooks": [
     {
-      "name": "Price Forecast",
-      "file_path": "Price Forecast.twbx",
+      "name": "Price Forecast New",
+      "file_path": "Price Forecast New.twbx",
       "project_path": "Technology",
       "tags": [
         "Forecasting",
@@ -15,8 +15,8 @@
       "description": "Price Forecast"
     },
     {
-      "name": "S&P New",
-      "file_path": "S&P New1.twbx",
+      "name": "Superstore_Sales_&_Profit",
+      "file_path": "Superstore_Sales_&_Profit.twb",
       "project_path": "Technology",
       "tags": [
         "Sales CY",
