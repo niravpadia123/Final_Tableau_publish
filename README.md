@@ -14,7 +14,30 @@
 
 2) If publishing single workbook then add those details in json file or if want to publish multiple workbooks then each workbook details needs to be mention in json   just like below
 
-{
+* Single Workbook json eg:-
+  
+  {
+  "workbooks": [
+    {
+      "name": "S&P_new_1",
+      "file_path": "S&P_new_1.twbx",
+      "project_path": "Technology",
+      "tags": [
+        "Forecasting",
+        "Crop"
+      ],
+      "hidden_views": [
+        "State","Price Forecast"
+      ],
+      "show_tabs": true,
+      "description": "Price Forecast"
+    }
+  ]
+}
+
+* Multiple workbook json eg:-
+
+  {
   "workbooks": [
          {
       "name": "workbook1",
