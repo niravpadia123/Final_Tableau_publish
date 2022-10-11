@@ -35,7 +35,7 @@
   ]
 }
 
-* Multiple workbook json eg 2 workbook publishing:-
+* Multiple workbook json for eg(2 workbook publishing):-
 
   {
   "workbooks": [
