@@ -4,8 +4,8 @@ import json
 
 
 def main(args):
+    workbook_file_path = ""
     project_data_json = json.loads(args.project_data)
-    workbook_name = None
     try:
         # Step 1: Sign in to server.
         tableau_auth = TSC.TableauAuth(args.username, args.password)
@@ -13,7 +13,7 @@ def main(args):
 
         with server.auth.sign_in(tableau_auth):
             for data in project_data_json:
-                workbook_name = data['file_path']
+                workbook_file_path = data['file_path']
                 
                 # Step 2: Get all the projects on server, then look for the default one.
                 all_projects, pagination_item = server.projects.get()
@@ -26,7 +26,7 @@ def main(args):
                         name=data['name'], project_id=project.id, show_tabs=data['show_tabs'])
                     new_workbook = server.workbooks.publish(
                         new_workbook, data['file_path'], 'Overwrite', hidden_views=data['hidden_views'])
-                    if data['tags']:
+                    if data['tags'] is not None:
                         new_workbook.tags = set(data['tags'])
                         new_workbook = server.workbooks.update(
                             new_workbook)
@@ -37,12 +37,12 @@ def main(args):
                         error = f"The project {data['project_path']} could not be found." 
                     else: 
                         error = f"The project for {data['file_path']} workbook could not be found."
-                    raise LookupError(error)
                     print(f"{data['file_path']} workbook is not published.")
+                    raise LookupError(error)
                     exit(1)
 
     except Exception as e:
-        print(f"{workbook_name} Workbook not published.\n", e)
+        print(f"{workbook_file_path} Workbook not published.\n", e)
         exit(1)
 
 
