@@ -1,0 +1,18 @@
+{
+  "workbooks": [
+    {
+      "name": "PriceForecast",
+      "file_path": "PriceForecast.twbx",
+      "project_path": "Technology",
+      "tags": [
+        "",
+        ""
+      ],
+      "hidden_views": [
+        "",""
+      ],
+      "show_tabs": true,
+      "description": ""
+    }
+  ]
+}
