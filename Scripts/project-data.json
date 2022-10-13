@@ -1,8 +1,8 @@
 {
   "workbooks": [
     {
-      "name": "PriceForecast",
-      "file_path": "PriceForecast.twbx",
+      "name": "Price Forecast",
+      "file_path": "Price Forecast.twbx",
       "project_path": "Technology",
       "tags": [
     
@@ -11,7 +11,7 @@
         
       ],
       "show_tabs": true,
-      "description": "New file"
+      "description": ""
     }
   ]
 }
