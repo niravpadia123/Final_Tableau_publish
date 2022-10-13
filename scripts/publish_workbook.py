@@ -12,7 +12,7 @@ def main(args):
 
         with server.auth.sign_in(tableau_auth):
             for data in project_data_json:
-                wb_path = "/home/runner/work/publish_workbooks/publish_workbooks/workbooks/" + \
+                wb_path = "/home/runner/work/Final_Tableau_publish/Final_Tableau_publish/workbooks" + \
                     data['file_path']
 
                 if data['project_path'] is None:
