@@ -1,6 +1,7 @@
 import argparse
 import tableauserverclient as TSC
 import json
+import os
 
 
 def main(args):
@@ -12,8 +13,8 @@ def main(args):
 
         with server.auth.sign_in(tableau_auth):
             for data in project_data_json:
-                wb_path = "/home/runner/work/publish_workbooks/publish_workbooks/workbooks/" + \
-                    data['file_path']
+                wb_path = os.path.dirname(os.path.realpath(__file__)).rsplit(
+                    '/', 1)[0] + "/workbooks/" + data['file_path']
 
                 if data['project_path'] is None:
                     error = f"The project project_path field is Null in JSON Template."
