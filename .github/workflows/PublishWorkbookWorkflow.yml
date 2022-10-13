@@ -8,8 +8,6 @@ env:
   UNAME: ${{secrets.USERNAME}}
   PASS: ${{secrets.PASSWORD}}
   SERVURL: ${{secrets.SERVERURL}}
-on:
-   workflow_dispatch
 jobs:
   Publish:
     runs-on: ubuntu-latest
