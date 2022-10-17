@@ -4,14 +4,14 @@
       "name": "Forecast",
       "file_path": "Forecast.twbx",
       "project_path": "Technology",
-      "tags": [
+      "tags": [ "price", "Sales"
     
       ],
       "hidden_views": [
         
       ],
       "show_tabs": true,
-      "description": "with only json"
+      "description": "forecast sample"
     }
   ]
 }
