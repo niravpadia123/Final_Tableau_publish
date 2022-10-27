@@ -3,7 +3,20 @@
     {
       "name": "Forecast",
       "file_path": "Forecast.twbx",
-      "project_path": "Test",
+      "project_path": "Technology",
+      "tags": [ "price", "Sales"
+    
+      ],
+      "hidden_views": [
+        
+      ],
+      "show_tabs": true,
+      "description": "forecast sample"
+    },
+    {
+      "name": "Superstore_Sales_&_Profit",
+      "file_path": "Superstore_Sales_&_Profit.twb",
+      "project_path": "Technology",
       "tags": [ "price", "Sales"
     
       ],
