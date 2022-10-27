@@ -1,8 +1,8 @@
 {
   "workbooks": [
     {
-      "name": "DTech New",
-      "file_path": "DTech New.twb",
+      "name": "Scorecard New",
+      "file_path": "Scorecard New.twbx",
       "project_path": "Online",
       "tags": [ "price", "Sales"
     
@@ -14,8 +14,8 @@
       "description": "sample"
     },
     {
-      "name": "Scorecard New",
-      "file_path": "Scorecard New.twbx",
+      "name": "DTech New",
+      "file_path": "DTech New.twb",
       "project_path": "Working",
       "tags": [ "price", "Sales"
     
