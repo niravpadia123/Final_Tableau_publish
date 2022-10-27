@@ -1,9 +1,9 @@
 {
   "workbooks": [
     {
-      "name": "Forecast",
-      "file_path": "Forecast.twbx",
-      "project_path": "Technology",
+      "name": "DTech New",
+      "file_path": "DTech New.twb",
+      "project_path": "Online",
       "tags": [ "price", "Sales"
     
       ],
@@ -11,12 +11,12 @@
         
       ],
       "show_tabs": true,
-      "description": "forecast sample"
+      "description": "sample"
     },
     {
-      "name": "Superstore_Sales_&_Profit",
-      "file_path": "Superstore_Sales_&_Profit.twb",
-      "project_path": "Technology",
+      "name": "Scorecard New",
+      "file_path": "Scorecard New.twbx",
+      "project_path": "Working",
       "tags": [ "price", "Sales"
     
       ],
@@ -24,7 +24,7 @@
         
       ],
       "show_tabs": true,
-      "description": "forecast sample"
+      "description": "New"
     }
   ]
 }
