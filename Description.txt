@@ -1,0 +1,80 @@
+python description:-
+
+1-4 import Dependency, modules
+import os - to get wb path from  git server
+json - to get the json file
+argparse - for passing arguments
+tableau server client - to communicate with tableau server
+
+
+63-77
+passing the arguments like userame,password,serverurl,projec_data and calling the main function
+
+pass all the arguments to main function
+
+7-9 calling main function
+converting json file all data to json format
+
+try:
+
+sigining in to the server
+11-12
+getting username password ,server url from the arguments
+
+15-17
+for loop: whatever files are available in json this for loop will execute
+and get the path of workbook  from the server
+
+19-25
+if project path is null in json then through the exception error and exit from code
+
+step 2:
+else if project path is available 
+it will get the project id from project path
+
+step 3:
+if required project is found form a new workbook item and publish else it will through the exception error 46-50
+
+if tags are available in json then update the tags and publish the workbook
+
+and print the success msg
+
+46-50
+else : step 3
+
+
+52-56
+if workbook not publish the thorugh the exception error
+
+step 1 exception 
+if unable to sign in then through the exception of sign in
+
+
+workflow:-
+
+
+1-6 = workflow triggers on pull request to main
+
+env:
+get username,pass,serverurl from secrets
+
+
+run jobs for publish workbook on latest ubuntu server
+
+steps :
+clone the git repo with lfs enable
+
+name- checkout lfs object - it install all lfs Dependency
+
+name - setup python - it install python
+
+name - install Dependency - it install all python Dependency and tableau dependency
+
+name  - publish workbooks
+it gets data from json as a string format thats why we have converted into json format in python script 
+
+if project_data is not null then it will run our python script otherwise will print error msg
+
+
+
+
