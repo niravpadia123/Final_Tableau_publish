@@ -73,9 +73,9 @@
         "site_id": "e4fc3628-68b4-4a72-a956-9fc3c02192f4",
         "site_name": "Enterprise",
         "project_path": "Technology",
-        "wb_name": "DTech New",
-        "file_path": "DTech New.twb",
-        "tags": ["forecast"],
+        "wb_name": "DTech New source",
+        "file_path": "DTech New source.twb",
+        "tags": [""],
         "hidden_views": [],
         "is_site_default": true,
         "show_tabs": true
