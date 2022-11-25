@@ -37,7 +37,7 @@
             "CreateRefreshMetrics": "Deny",
             "ChangeHierarchy": "Deny",
             "Delete": "Deny",
-            "ChangePermissions": "Allow"
+            "ChangePermissions": "Deny"
           }
         },
         {
@@ -52,14 +52,14 @@
             "ExportData": "Allow",
             "RunExplainData": "Allow",
             "ShareView": "Allow",
-            "ViewUnderlyingData": "Allow",                    
-            "WebAuthoring": "Allow",
-            "ExportXml": "Allow",
-            "Write": "Allow",
-            "CreateRefreshMetrics": "Allow",
-            "ChangeHierarchy": "Allow",
-            "Delete": "Allow",
-            "ChangePermissions": "Allow"
+            "ViewUnderlyingData": "Deny",                    
+            "WebAuthoring": "Deny",
+            "ExportXml": "Deny",
+            "Write": "Deny",
+            "CreateRefreshMetrics": "Deny",
+            "ChangeHierarchy": "Deny",
+            "Delete": "Deny",
+            "ChangePermissions": "Deny"
           }
         }
       ]
@@ -74,7 +74,7 @@
         "site_name": "Enterprise",
         "project_path": "Technology",
         "wb_name": "DTech New",
-        "file_path": "DTech New.twbx",
+        "file_path": "DTech New.twb",
         "tags": ["forecast"],
         "hidden_views": [],
         "is_site_default": true,
