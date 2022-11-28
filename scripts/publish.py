@@ -8,7 +8,7 @@ import tableauserverclient as TSC
 
 def publish_wb(server, data):
     """
-    Funcrion Description
+    This funciton get projcet id and path of workbook in server, pulish and update workbook
     """
     project_id = get_project_id(
         server, data['publish_wb_data']['project_path'], data['publish_wb_data']['file_path'])

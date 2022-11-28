@@ -9,7 +9,7 @@ from permissions import query_permission, add_permission, delete_permission
 
 def temp_func(data, username, password, prod_username, prod_password):
     """
-    Funcrion Description
+    This function call all internal methods and apis conditionally
     """
     # Step: Sign In to the Tableau Server
     if data['publish_wb_data']['server_name'] == "dev":

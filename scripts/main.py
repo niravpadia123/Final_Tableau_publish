@@ -10,7 +10,8 @@ from service import temp_func
 
 def main(arguments):
     """
-    Funcrion Description
+    Main Funcrion
+    Get all arguments and use multi processing for execute all tasks
     """
     wb_list = json.loads(arguments.project_data)
     num_proc = multiprocessing.cpu_count()
